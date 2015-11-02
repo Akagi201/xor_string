@@ -3,7 +3,7 @@ from itertools import cycle, izip
 
 def xor_string(message, key):
     cyphered = ''.join(chr(ord(c)^ord(k)) for c,k in izip(message, cycle(key)))
-    print('%s ^ %s = %s' % (message, key, cyphered))
+    # print('%s ^ %s = %s' % (message, key, cyphered))
     return cyphered
 
 if __name__ == '__main__':
