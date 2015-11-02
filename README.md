@@ -13,6 +13,9 @@ TypeError: unsupported operand type(s) for ^: 'str' and 'str'
 
 Fortunately, Python has the (amazing) itertools module.
 
+## unit tests
+* `nosetests -v`
+
 ## Explanations
 
 For those who are not familiar with python:
