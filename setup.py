@@ -13,9 +13,9 @@ requires = [
 setup(
     name='xor_string',
     packages=['xor_string',],
-    version='0.1.4',
+    version='0.1.5',
     url='https://github.com/Akagi201/xor_string',
-    download_url='https://github.com/Akagi201/xor_string/tarball/0.1.4',
+    download_url='https://github.com/Akagi201/xor_string/tarball/0.1.5',
     description='Elegant xor encryption in Python',
     # long_description=README,
     license='MIT',
