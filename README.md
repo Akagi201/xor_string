@@ -1,4 +1,6 @@
-# xor-string
+# xor_string
+
+![PyPI downloads](https://img.shields.io/pypi/dm/xor_string.svg) ![PyPI version](https://img.shields.io/pypi/v/xor_string.svg) ![PyPI python version](https://img.shields.io/pypi/pyversions/xor_string.svg)
 
 Python doesn't support (natively) XOR on everything else than int, and this is annoying.
 
