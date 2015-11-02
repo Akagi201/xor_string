@@ -1,1 +1,1 @@
-from xor_string.xor_string import *
+from xor_string import *
