@@ -1,4 +1,4 @@
-# Xor-String
+# xor-string
 
 Python doesn't support (natively) XOR on everything else than int, and this is annoying.
 
