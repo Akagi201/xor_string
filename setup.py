@@ -11,11 +11,11 @@ requires = [
 ]
 
 setup(
-    name='xor-string',
-    packages=['xor-string',],
-    version='0.1.3',
-    url='https://github.com/Akagi201/xor-string',
-    download_url='https://github.com/Akagi201/xor-string/tarball/0.1.3',
+    name='xor_string',
+    packages=['xor_string',],
+    version='0.1.4',
+    url='https://github.com/Akagi201/xor_string',
+    download_url='https://github.com/Akagi201/xor_string/tarball/0.1.4',
     description='Elegant xor encryption in Python',
     # long_description=README,
     license='MIT',
