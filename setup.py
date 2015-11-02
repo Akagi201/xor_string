@@ -14,10 +14,6 @@ here = os.path.abspath(os.path.dirname(__file__))
 
 readme = read_file(os.path.join(here, 'README.md'))
 
-install_requires = [
-    'itertools',
-]
-
 setup(
     name='xor_string',
     packages=['xor_string', ],
@@ -30,7 +26,6 @@ setup(
     author='Akagi201',
     author_email='akagi201@gmail.com',
     keywords=['xor', 'string', 'itertools', 'python'],
-    install_requires=install_requires,
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Console',
