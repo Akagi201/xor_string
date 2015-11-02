@@ -21,9 +21,9 @@ install_requires = [
 setup(
     name='xor_string',
     packages=['xor_string', ],
-    version='0.2.1',
+    version='0.2.2',
     url='https://github.com/Akagi201/xor_string',
-    download_url='https://github.com/Akagi201/xor_string/tarball/0.2.1',
+    download_url='https://github.com/Akagi201/xor_string/tarball/0.2.2',
     description='Elegant xor encryption in Python',
     long_description=readme,
     license='MIT',
