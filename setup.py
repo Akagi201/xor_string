@@ -13,8 +13,8 @@ try:
     pandoc.core.PANDOC_PATH = '/usr/local/bin/pandoc'
     doc = pandoc.Document()
     here = os.path.abspath(os.path.dirname(__file__))
-    # doc.markdown = read_file(os.path.join(here, 'README.md'))
-    doc.markdown = open('README.md').read()
+    doc.markdown = read_file(os.path.join(here, 'README.md'))
+    # doc.markdown = open('README.md').read()
     ld = doc.rst
 except:
     ld = 'See:\nhttps://github.com/Akagi201/xor_string\n'
@@ -26,9 +26,9 @@ except:
 setup(
     name='xor_string',
     packages=['xor_string', ],
-    version='0.2.4',
+    version='0.2.5',
     url='https://github.com/Akagi201/xor_string',
-    download_url='https://github.com/Akagi201/xor_string/tarball/0.2.4',
+    download_url='https://github.com/Akagi201/xor_string/tarball/0.2.5',
     description='Elegant xor encryption in Python',
     long_description=ld,
     license='MIT',
