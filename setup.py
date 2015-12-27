@@ -26,9 +26,9 @@ except:
 setup(
     name='xor_string',
     packages=['xor_string', ],
-    version='0.2.5',
+    version='0.2.6',
     url='https://github.com/Akagi201/xor_string',
-    download_url='https://github.com/Akagi201/xor_string/tarball/0.2.5',
+    download_url='https://github.com/Akagi201/xor_string/tarball/0.2.6',
     description='Elegant xor encryption in Python',
     long_description=ld,
     license='MIT',
